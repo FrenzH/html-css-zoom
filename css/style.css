@@ -1,0 +1,144 @@
+/*generics*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #222222;
+    color: white;
+    border: 0;
+  }
+  
+  
+  /*utilities*/
+  
+  .green{
+    color: greenyellow;
+  }
+  
+  
+  
+  .flex{
+    display: flex;
+  }
+  
+  .column{
+    flex-direction: column;
+  }
+  
+  .grow{
+    flex-grow: 1;
+  }
+  
+  .wrap{
+    flex-wrap: wrap;
+  }
+  
+  .justify-end{
+    justify-content: flex-end;
+  }
+  
+  .space-between{
+    justify-content: space-between
+  }
+  
+  
+  /* /flex */
+  
+  /*** content ***/
+  .web-app{
+    height: 100vh;  
+  }
+  
+  /* header */
+  header{
+    padding: 10px; 
+  }
+  
+  header button{
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #222222;
+    color: white;
+    margin-left: 0.3rem;
+  }
+  
+  header button span{
+    margin-left: 0.3rem;
+  }
+  /* /header */
+  
+  /* main */
+  
+  main{
+    overflow-y: auto;
+  }
+  
+  
+  .main-container{
+    margin: 50px 75px 50px;
+    width: calc(100% - 150px);
+    align-items: flex-start;
+  }
+  
+  .partecipant{
+    width: calc(100% / 7);
+    position: relative;
+    border: 2px solid black;
+  }
+  
+  .partecipant img{
+    width: 100%;
+    display: block;
+  }
+  
+  .partecipant-name{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    
+  }
+  
+  .partecipant-name button {
+    padding: 5px 10px
+  }
+  
+  
+  /* /main */
+  
+  /* footer */
+  
+  footer{
+    background-color: #222222;
+  }
+  
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+  }
+  
+  .icon i {
+    margin-bottom: 10px;
+  }
+  
+  .end-action button {
+    height: 100%;
+    background-color: lightslategray;
+    color: red;
+    padding: 0 10px;
+  }
+  
+  
